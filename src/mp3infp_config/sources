@@ -20,6 +20,7 @@ SOURCES=\
 	mp3infp_config.cpp \
 	PageApe.cpp \
 	PageAvi.cpp \
+	PageFlac.cpp \
 	PageM3u.cpp \
 	PageMain.cpp \
 	PageMp3.cpp \

@@ -201,6 +201,14 @@ protected:
 	BOOL			m_bMp4ColumnEnable;
 	CString			m_strMp4InfoTipFormat;//Infotip‚Ì‘®
 
+	//FLAC====================================================
+	CTag_Flac		m_Flac;
+	BOOL			m_bFlacPropEnable;
+	BOOL			m_bFlacInfotipEnable;
+	BOOL			m_bFlacColumnEnable;
+	BOOL			m_bFlacProp_Fullpath;
+	CString			m_strFlacInfoTipFormat;//Infotip‚Ì‘®
+
 	HWND			m_hwndPage;
 	BOOL			m_bApply;	//•Û‘¶‚ª•K—v‚È‚Æ‚«‚ÉTRUE
 

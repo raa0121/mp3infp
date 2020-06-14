@@ -46,6 +46,7 @@
 #include "Tag_OpenDML.h"
 #include "Tag_Wma.h"
 #include "Tag_Mp4.h"
+#include "Tag_Flac.h"
 #include "ShellExt.h"
 #include "ShellExtClassFactory.h"
 #include "mp3infp_ExportFunc.h"
@@ -90,6 +91,7 @@ public:
 	CTag_Ogg		m_Ogg;
 	CTag_Ape		m_Ape;
 	CTag_Mp4		m_Mp4;
+	CTag_Flac		m_Flac;
 	CInfo_MonkeysAudio m_Monkeys;
 	CTag_OpenDML	m_OpenDML;
 	int				m_iAviCodecFind;	// コーデック名称取得方法

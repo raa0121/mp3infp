@@ -4,8 +4,8 @@ DEFINE_GUID(CLSID_ShellExt,
 0xddb066b3, 0x8d19, 0x11d2, 0x87, 0x63, 0x0, 0x60, 0x52, 0x1, 0x4b, 0x8);
 #define CLSID_STR_ShellExt _T("{DDB066B3-8D19-11d2-8763-006052014B08}")
 
-#define LANG_VER 255
-#define SOFT_NAME _T("mp3infp/u Ver.2.55")
+#define LANG_VER 256
+#define SOFT_NAME _T("mp3infp/u Ver.2.56")
 #define APP_NAME _T("mp3infp")
 #define COPY_RIGHT _T("Copyright(c) 1998-2018 T-Matsuo, Rem, K.Takata\nmailto:tms2@win32lab.com\nhttp://win32lab.com/")
 #define HELP_FILE _T("mp3infp.chm")
@@ -39,6 +39,10 @@ DEFINE_GUID(CLSID_ShellExt,
 #define DEF_MP4_PROP_ENABLE					TRUE
 #define DEF_MP4_INFOTIP_ENABLE				TRUE
 #define DEF_MP4_COLUMN_ENABLE				TRUE
+
+#define DEF_FLAC_PROP_ENABLE				TRUE
+#define DEF_FLAC_INFOTIP_ENABLE				TRUE
+#define DEF_FLAC_COLUMN_ENABLE				TRUE
 /* 全部入りInfoTip
 ファイル名:\t\FILE\FEXT\nファイルサイズ(bytes):\t\SIZ1\nファイルサイズKB:\t\SIZK\nファイルサイズ(MB):\t\SIZM\nタイトル:\t\t\INAM\nアーティスト:\t\IART\nアルバム:\t\IPRD\nグループ:\t\IGRP\n作曲:\t\t\COMPOSER\nジャンル:\t\t\IGNR\nトラック番号:\t\TRACK\nディスク番号:\t\DISC\nテンポ(BPM):\tBPM\n西暦:\t\t\ICRD\nコンピレーション:\t\COMPILATION\nコメント:\t\t\ICMT\n音声フォーマット:\n\AFMT\n映像フォーマット:\n\VFMT
 */

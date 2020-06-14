@@ -28,11 +28,13 @@ TARGETLIBS=\
 	..\lib\mp4v2\src\build\$(O)\mp4v2.lib \
 	..\lib\oggvorbis\lib\ogg\$(O)\ogg.lib \
 	..\lib\oggvorbis\lib\vorbis\$(O)\vorbis.lib \
+	..\lib\flac\src\build\$(o)\flac.lib \
 
 INCLUDES=$(DDK_INC_PATH);$(MFC_INC_PATH); \
 	..\lib\mp4v2\include; \
 	..\lib\oggvorbis\include; \
-	..\lib\winamp\include
+	..\lib\winamp\include; \
+	..\lib\flac\include
 
 !if $(UNICODE)
 DLLDEF=..\mp3infp_unicode.def
@@ -55,6 +57,7 @@ SOURCES=\
 	..\mp3infp_ExportFunc.cpp \
 	..\Page_ape.cpp \
 	..\Page_avi.cpp \
+	..\Page_flac.cpp \
 	..\Page_m3u.cpp \
 	..\Page_mp3_APE.cpp \
 	..\Page_mp3_ID3V1.cpp \
@@ -80,6 +83,7 @@ SOURCES=\
 	..\ShellExt_IShellPropSheetExt.cpp \
 	..\StdAfx.cpp \
 	..\Tag_Ape.cpp \
+	..\Tag_Flac.cpp \
 	..\Tag_Mp4.cpp \
 	..\Tag_Ogg.cpp \
 	..\Tag_OpenDML.cpp \
